@@ -1,0 +1,58 @@
+#TopImg{
+  background: black;
+  min-height: 500px;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(135deg,rgba(0,0,0,.2)
+  0,#002d77 100%);
+  background-image: linear-gradient(135deg, rgba(0,0,0,.2) 0,#000 100%),url("https://www.estprimesteakhouse.com/resourcefiles/homeimages/prime-steak_1.jpg");
+  background-position: center;
+  background-size: cover;
+  /*padding-right: 200px;*/
+
+.title{
+  padding: 200px 0 80px;
+  text-align: right;
+  h1{
+    font-family: $displayFont;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-size: 4rem;
+  }
+  h5{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+  }
+}
+  .contact-info{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    text-align: right;
+    color: $paragraphColor;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    strong{
+      font-weight: bold;
+      color: white;
+    }
+    .booking{
+      margin-bottom: 10px;
+      color: $paragraphColor;
+    }
+    h2{
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: white;
+
+
+    }
+  }
+
+
+
+
+}

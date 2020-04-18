@@ -1,0 +1,74 @@
+#Reviews{
+  padding: 100px 0;
+  text-align: right;
+
+  .side-img{
+    position: relative;
+    height: 200px;
+    /*width: 100%*/;
+    text-align: left;
+    img{
+      /*position:absolute;*?
+      /*max-width: 600px;*/
+      width: 500px;
+      height: 500px;
+
+    }
+  }
+.mySlides{
+  display: none;
+
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.prev, .next{
+  transition: 1s ease;
+
+}
+
+  h4{
+    font-weight: 600;
+    font-size: .9rem;
+    margin-bottom: 2rem;
+  }
+
+  .author{
+    font-size: .8rem;
+    color: $paragraphColor;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+
+    strong{
+      font-weight: 900;
+      color: $black;
+    }
+  }
+  .arrows{
+    .fas{
+      font-size:1.5rem;
+      padding: 20px 10px;
+      cursor: pointer;
+      color: $paragraphColor;
+      
+    }
+    .fas.ready{
+      color: $black;
+    }
+  }
+
+}
